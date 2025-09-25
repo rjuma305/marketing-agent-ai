@@ -1,0 +1,19 @@
+# API keys and configuration for Marketing Agentic AI
+openai_api_key: "YOUR_OPENAI_API_KEY"
+ads:
+  google:
+    developer_token: "YOUR_GOOGLE_ADS_DEVELOPER_TOKEN"
+    client_id: "YOUR_GOOGLE_ADS_CLIENT_ID"
+    client_secret: "YOUR_GOOGLE_ADS_CLIENT_SECRET"
+    refresh_token: "YOUR_GOOGLE_ADS_REFRESH_TOKEN"
+  facebook:
+    access_token: "YOUR_FACEBOOK_ACCESS_TOKEN"
+  mailchimp:
+    api_key: "YOUR_MAILCHIMP_API_KEY"
+memory:
+  provider: "pinecone"
+  api_key: "YOUR_PINECONE_API_KEY"
+  index_name: "marketing-agent-memory"
+budgets:
+  daily_ad_spend_limit: 100.00
+  monthly_ad_spend_limit: 3000.00
